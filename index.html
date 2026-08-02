@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KAVABANGA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <svg class="bg-illustrations" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur1" />
+        <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur2" />
+        <feMerge>
+          <feMergeNode in="blur2" />
+          <feMergeNode in="blur1" />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+    </defs>
+    <g filter="url(#neonGlow)" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <g>
+        <path d="M 120,750 C 160,600 120,400 200,250" />
+        <path d="M 137,650 Q 150,640 165,655" />
+        <path d="M 135,600 Q 150,590 165,605" />
+        <path d="M 133,550 Q 145,540 160,555" />
+        <path d="M 135,500 Q 145,490 155,505" />
+        <path d="M 140,450 Q 150,440 158,455" />
+        <path d="M 148,400 Q 158,390 165,405" />
+        <path d="M 158,350 Q 168,340 175,355" />
+        <path d="M 170,300 Q 180,290 188,305" />
+        <path d="M 200,250 C 240,200 300,210 340,160 C 320,170 300,180 290,150 C 280,180 260,170 240,160 C 230,190 210,200 200,250" />
+        <path d="M 200,250 C 250,260 290,300 340,280 C 310,290 300,270 290,280 C 280,290 260,270 240,280 C 230,290 210,270 200,250" />
+        <path d="M 200,250 C 220,300 230,370 220,420 C 215,390 205,380 200,400 C 200,370 190,350 180,360 C 185,330 190,290 200,250" />
+        <path d="M 200,250 C 160,240 110,270 70,240 C 100,250 110,230 120,240 C 130,250 150,230 160,240 C 170,250 180,240 200,250" />
+        <path d="M 200,250 C 170,190 120,150 80,170 C 110,150 120,130 130,140 C 140,150 160,130 170,140 C 180,150 190,180 200,250" />
+      </g>
+      <g>
+        <path d="M 1060,140 C 1095,140 1110,210 1110,390 C 1110,570 1095,640 1060,640 C 1025,640 1010,570 1010,390 C 1010,210 1025,140 1060,140 Z" />
+        <path d="M 1060,175 C 1075,260 1075,520 1060,605" stroke-width="1.5" stroke-opacity="0.8"/>
+        <path d="M 1035,260 C 1045,340 1045,440 1035,520" stroke-width="1" stroke-opacity="0.6"/>
+        <path d="M -20,770 C 200,730 600,780 1220,730" stroke-width="2.5" />
+      </g>
+    </g>
+  </svg>
+
+  <header class="header">
+    <img src="фото/лого.png" alt="РЕЛИЗ Кофейня" class="logo">
+    <img src="фото/слоган.png" alt="Ваш идеальный кофе" class="slogan">
+  </header>
+
+  <nav class="nav-buttons">
+    <a href="https://yandex.ru/maps/?mode=routes&rtext=~45.130424%2C33.598923&rtt=auto" class="btn glass-btn" target="_blank">Построить маршрут</a>
+    <a href="tel:+79784728170" class="btn glass-btn">Контакты</a>
+    <a href="#menu-block" class="btn glass-btn">Наше меню</a>
+  </nav>
+
+  <section id="menu-block" class="menu-section">
+    <h2 class="section-title">Меню</h2>
+    <div class="menu-grid">
+      <div class="menu-card">
+        <img src="фото/какао.webp" alt="Какао" class="menu-img">
+        <h3 class="menu-name">Какао 250 мл</h3>
+        <p class="menu-price">190 ₽</p>
+      </div>
+      <div class="menu-card">
+        <img src="фото/чизкейк.webp" alt="Чизкейк" class="menu-img">
+        <h3 class="menu-name">Чизкейк</h3>
+        <p class="menu-price">380 ₽</p>
+      </div>
+      <div class="menu-card">
+        <img src="фото/сендвич.png" alt="Сендвич" class="menu-img">
+        <h3 class="menu-name">Сендвич</h3>
+        <p class="menu-price">150 ₽</p>
+      </div>
+      <div class="menu-card">
+        <img src="фото/клубника.png" alt="Шоколадный пирог с клубникой" class="menu-img">
+        <h3 class="menu-name">Шоколадный пирог с клубникой</h3>
+        <p class="menu-price">320 ₽</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="atmosphere-section">
+    <div class="atmosphere-header">
+      <span class="atmosphere-text">Атмосфера</span>
+      <img src="фото/логомини.png" alt="РЕЛИЗ" class="mini-logo">
+    </div>
+    <p class="atmosphere-desc">
+      Здесь воздух пропитан ароматом кофе и солёным бризом. Это место, где хочется забыть о времени: слушать любимую музыку, вдыхать тропическую свежесть и чувствовать, как каждая чашка наполняет теплом.
+    </p>
+    <div class="gallery-grid">
+      <img src="фото/инт3.webp" alt="Интерьер" class="gallery-img">
+      <img src="фото/инт2.webp" alt="Интерьер" class="gallery-img">
+      <img src="фото/инт.webp" alt="Интерьер" class="gallery-img">
+      <img src="фото/интс.webp" alt="Десерт" class="gallery-img">
+    </div>
+  </section>
+
+  <section id="reviews-block" class="reviews-section">
+    <h2 class="section-title">Отзывы</h2>
+    <div class="rating-summary">
+      <div class="rating-score">5.0</div>
+      <div class="rating-stars" id="rating-stars" aria-label="5.0 из 5"></div>
+      <div class="rating-count">на Яндекс Картах</div>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="review-top">
+          <div class="review-avatar">ЕК</div>
+          <div class="review-meta">
+            <div class="review-name">Евгения К.</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+        </div>
+        <p class="review-text">Вы замечательны! Около месяца назад начала ходить к вам вместо Прокофьева Для такого маленького города - вы держите уровень столицы 😇 Благодарю! Сейчас ваш круассан ела с закрытыми глазами от кайфа)) И сотрудники доброжелательные всегда) Респект 🫶</p>
+      </div>
+      <div class="review-card">
+        <div class="review-top">
+          <div class="review-avatar">ДС</div>
+          <div class="review-meta">
+            <div class="review-name">Давид Сафарьян</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+        </div>
+        <p class="review-text">Отдыхаем с женой в г.Саки почти неделю , и переодически заходим попить кофе в эту кофейню ,были в разных ,это понравилось больше всего по качеству кофе и интерьеру, еще и персонал вежливый, что не спросишь все доступно объясняют по кофейной карте, жаль не получилось попить какао спешл.</p>
+      </div>
+      <div class="review-card">
+        <div class="review-top">
+          <div class="review-avatar">АД</div>
+          <div class="review-meta">
+            <div class="review-name">Анастасия Дорогавцева</div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+        </div>
+        <p class="review-text">Была в этой кофейне сегодня и получила не просто вкусный кофе, а настоящее настроение. Уютное местечко с огромным выбором свежих и вкусных десертов. Отдельная благодарность бариста Даше и Алёне- профессионалы своего дела с невероятной энергетикой.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="schedule-block" class="schedule">
+    <p class="schedule-text">Мы работаем ежедневно с 9:00 до 23:00</p>
+    <div id="open-status" class="status-badge status-closed">
+      <span class="status-dot"></span>
+      <span id="status-text">Проверяем режим работы...</span>
+    </div>
+    <details class="schedule-details">
+      <summary>Расписание на неделю</summary>
+      <ul class="schedule-list">
+        <li><span>Понедельник</span><span>09:00 – 23:00</span></li>
+        <li><span>Вторник</span><span>09:00 – 23:00</span></li>
+        <li><span>Среда</span><span>09:00 – 23:00</span></li>
+        <li><span>Четверг</span><span>09:00 – 23:00</span></li>
+        <li><span>Пятница</span><span>09:00 – 23:00</span></li>
+        <li><span>Суббота</span><span>09:00 – 23:00</span></li>
+        <li><span>Воскресенье</span><span>09:00 – 23:00</span></li>
+      </ul>
+    </details>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-text">Информация о ценах и наличии товаров носит ознакомительный характер и не является публичной офертой.</p>
+  </footer>
+
+  <script>
+    const STAR = '<svg class="star star-filled" viewBox="0 0 14 13" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M6.52447 0.463524C6.67415 0.00286841 7.32585 0.00286996 7.47553 0.463525L8.68386 4.18237C8.75079 4.38838 8.94277 4.52786 9.15938 4.52786H13.0696C13.554 4.52786 13.7554 5.14767 13.3635 5.43237L10.2001 7.73075C10.0248 7.85807 9.95149 8.08375 10.0184 8.28976L11.2268 12.0086C11.3764 12.4693 10.8492 12.8523 10.4573 12.5676L7.29389 10.2693C7.11865 10.1419 6.88135 10.1419 6.70611 10.2693L3.54267 12.5676C3.15081 12.8523 2.62357 12.4693 2.77325 12.0086L3.98157 8.28976C4.04851 8.08375 3.97518 7.85807 3.79994 7.73075L0.636495 5.43237C0.244639 5.14767 0.446028 4.52786 0.93039 4.52786H4.84062C5.05723 4.52786 5.24921 4.38838 5.31614 4.18237L6.52447 0.463524Z"/></svg>';
+
+    document.getElementById('rating-stars').innerHTML = STAR.repeat(5);
+
+    const OPEN_HOUR = 9;
+    const CLOSE_HOUR = 23;
+
+    function updateOpenStatus() {
+      const now = new Date();
+      const hours = now.getHours();
+      const isOpen = hours >= OPEN_HOUR && hours < CLOSE_HOUR;
+      const badge = document.getElementById('open-status');
+      const text = document.getElementById('status-text');
+
+      badge.classList.toggle('status-open', isOpen);
+      badge.classList.toggle('status-closed', !isOpen);
+
+      if (isOpen) {
+        text.textContent = 'Открыто сейчас · до 23:00';
+      } else if (hours < OPEN_HOUR) {
+        text.textContent = 'Закрыто · откроемся в 09:00';
+      } else {
+        text.textContent = 'Закрыто · откроемся завтра в 09:00';
+      }
+    }
+
+    updateOpenStatus();
+    setInterval(updateOpenStatus, 60000);
+
+    function adaptIllustrations() {
+      const svg = document.querySelector('.bg-illustrations');
+      if (!svg) return;
+      const ratio = window.innerWidth / window.innerHeight;
+      svg.setAttribute('preserveAspectRatio', ratio < 1 || window.innerWidth < 1024 ? 'xMidYMid meet' : 'xMidYMid slice');
+    }
+
+    adaptIllustrations();
+    window.addEventListener('resize', adaptIllustrations);
+    window.addEventListener('orientationchange', adaptIllustrations);
+  </script>
+
+</body>
+</html>
